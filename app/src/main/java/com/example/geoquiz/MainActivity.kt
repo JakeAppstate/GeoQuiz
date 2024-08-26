@@ -1,13 +1,9 @@
 package com.example.geoquiz
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
+//import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +23,6 @@ class MainActivity : AppCompatActivity() {
 //                R.string.correct_toast,
 //                Toast.LENGTH_SHORT
 //            ).show()
-
             Snackbar.make(
                 findViewById(R.id.main),
                 R.string.correct_toast,
